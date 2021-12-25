@@ -5,24 +5,21 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 
 import "slick-carousel/slick/slick-theme.css";
-import Slide0 from "../images/bg2.png";
-import Slide1 from "../images/bg2.png";
-import Slide2 from "../images/bg2.png";
-import Slide3 from "../images/bg2.png";
-import Slide4 from "../images/bg2.png";
-import Slide5 from "../images/bg2.png";
-import Slide6 from "../images/bg2.png";
-import Slide7 from "../images/bg2.png";
-import Slide8 from "../images/bg2.png";
-import Slide9 from "../images/bg2.png";
-import Slide10 from "../images/bg2.png";
-import Slide11 from "../images/bg2.png";
-import Slide12 from "../images/bg2.png";
-import Slide13 from "../images/bg2.png";
-import Slide14 from "../images/bg2.png";
-import Slide15 from "../images/bg2.png";
-import Slide16 from "../images/bg2.png";
-import Slide17 from "../images/bg2.png";
+import Slide0 from "../screenshots/signup.jpg"
+import Slide1 from "../screenshots/signin.jpg"
+import Slide2 from "../screenshots/map.jpg"
+import Slide3 from "../screenshots/dis_vs_hr.jpg"
+import Slide4 from "../screenshots/shared_user.jpg"
+import Slide5 from "../screenshots/control.jpg"
+import Slide6 from "../screenshots/vehicle_information.jpg"
+import Slide7 from "../screenshots/direction.jpg"
+import Slide8 from "../screenshots/dashboard.jpg"
+import Slide9 from "../screenshots/customer_service.jpg"
+import Slide10 from "../screenshots/company_information.jpg"
+import Slide11 from "../screenshots/alerts.jpg"
+import Slide12 from "../screenshots/language_setting.jpg"
+import Slide13 from "../screenshots/settings.jpg"
+
 
 const sliderImagges = [
   Slide0,
@@ -39,31 +36,24 @@ const sliderImagges = [
   Slide11,
   Slide12,
   Slide13,
-  Slide14,
-  Slide15,
-  Slide16,
-  Slide17,
+  
 ];
 
 const names = [
   "SignUp",
   "SignIn",
-  "Assign Vehicle",
-  "Expanded Vehicle list",
   "Map",
-  "Map Expanded",
-  "On-Off Status",
-  "Distance Chart",
-  "Distance Expanded",
-  "Monthly Report",
-  "Monthly Expanded",
-  "Driver Profile Update",
-  "Side Nav",
-  "Payment Guide",
-  "Tranacstion",
-  "Transaction Summery",
-  "Transaction Expanded",
-  "Setting",
+  "Daily Report",
+  "Shared User",
+  "Control",
+  "Vehicle Information",
+  "Direction",
+  "Dashboard",
+  "Customer Service",
+  "Company Information",
+  "Alerts",
+  "Language Settings",
+  "Settings",
 ];
 
 const Screenshot = () => {

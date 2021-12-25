@@ -15,13 +15,14 @@ import VehicleTracking from "../images/vehicle_tracking.svg";
 import TrafficUpdate from "../images/traffic_update.svg";
 import VoiceMonitor from "../images/voice_monitoring.svg";
 import EngineOnOff from "../images/engine_on_off.svg";
-import GeoFence from "../images/geo_fence.png";
+import GeoFence from "../images/geo_fence.svg";
 import SpeedViolation from "../images/speed_violation.svg";
 import ShareVehicle from "../images/share_vehicle.svg";
 
 import MileageReport from "../images/mileage_report.svg";
 import StreetView from "../images/street_view.svg";
-import SosButton from "../images/sos-01.png";
+
+import SOS from "../images/sos.svg";
 import Developer1 from "../images/developer1.jpg"
 import Developer2 from "../images/developer2.jpg"
 import Developer3 from "../images/developer3.jpg"
@@ -72,7 +73,7 @@ export const FeatureData = [
   },
   {
     title: "SOS Alert",
-    image: SosButton,
+    image: SOS,
     description:
       "Driver as well as passengers boarding on it may fall in crisis like road accident, robbery, kidnaping, snatching etc. and need to inform vehicle owner. In this hazardous situation you can press SOS button of vehicle tracker that will forward an outgoing call to owner and receiving it he/she can hear conversation inside the car and will able to take necessary steps.",
   },

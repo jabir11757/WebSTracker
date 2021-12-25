@@ -68,7 +68,7 @@ const Contact = () => {
             <TextField
             style={{width:230}}
                 variant="outlined"
-                label="Name:"
+                label="Name"
                 name="name"
                 value={contact.name}
                 onChange={handleChange}
@@ -84,7 +84,7 @@ const Contact = () => {
             <TextField
             style={{width:230}}
                 variant="outlined"
-                label="Mobile:"
+                label="Mobile"
                 name="mobile"
                 value={contact.mobile}
                 onChange={handleChange}
@@ -101,7 +101,7 @@ const Contact = () => {
                 style={{width:465}}
                 fullWidth
                 variant="outlined"
-                label="Email:"
+                label="Email"
                 name="email"
                 value={contact.email}
                 onChange={handleChange}
@@ -114,7 +114,7 @@ const Contact = () => {
             <textarea
                 style={{ marginTop:-32, width: 460, height: 100 }}
                 variant="outlined"
-                label="Message:"
+                label="Message"
                 name="message"
                 value={contact.message}
                 onChange={handleChange}
