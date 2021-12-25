@@ -30,7 +30,6 @@ const Pricing = () => {
         style={{
           width: "100%",
           overflow: "hidden",
-          backgroundColor: grey[200],
         }}
       >
         {PricingData.map((item, index) => {

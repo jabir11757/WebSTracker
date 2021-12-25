@@ -1,10 +1,9 @@
 import React from "react";
 
-import { Typography, Box, Icon } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import CancelIcon from "@mui/icons-material/Cancel";
-import { grey, yellow, red } from "@mui/material/colors";
-import { info } from "./data";
+import { grey } from "@mui/material/colors";
 const PricingFeature = ({ doc }) => {
   return (
     <Box style={{ margin: 10 }}>

@@ -3,6 +3,7 @@ import Traffic from "../images/traffic.gif";
 import Engine from "../images/engine.gif";
 import Mileage from "../images/mileage.gif";
 import Street from "../images/street_view.gif";
+import BG from "../images/street_view.gif";
 import Fence from "../images/fence.gif";
 import Voice from "../images/voice.gif";
 import Alert from "../images/alert.gif";
@@ -27,6 +28,13 @@ import Developer1 from "../images/developer1.jpg"
 import Developer2 from "../images/developer2.jpg"
 import Developer3 from "../images/developer3.jpg"
 import Developer4 from "../images/developer4.jpg"
+
+import Support from "../images/247_support.png"
+import UserFriendlyApp from "../images/user_friendly_app.png"
+import ExpenseControl from "../images/expense_control.png"
+import DualLanguage from "../images/dual_language.png"
+import Notification from "../images/notification.png"
+import CustomService from "../images/custom_service.png"
 
 export const FeatureData = [
   {
@@ -133,6 +141,55 @@ export const OurServiceData = [
     image: Speed,
   },
 ];
+
+
+
+
+
+
+export const AppFeatureData = [
+  {
+    title: "24/7 Support",
+    image: Support,
+    description:
+    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+  },
+  {
+    title: "User friendly App",
+    image: UserFriendlyApp,
+    description:
+    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+  },
+  {
+    title: "Notifications",
+    image: Notification,
+    description:
+      "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+  },
+  {
+    title: "Custom Service",
+    image: CustomService,
+    description:
+    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+  },
+  {
+    title: "Dual Language",
+    image: DualLanguage,
+    description:
+    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+  },
+  {
+    title: "Expense Control",
+    image: ExpenseControl,
+    description:
+    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+  },
+];
+
+
+
+
+
 
 export const PricingData = [
   {

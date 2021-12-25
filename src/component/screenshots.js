@@ -19,6 +19,7 @@ import Slide10 from "../screenshots/company_information.jpg"
 import Slide11 from "../screenshots/alerts.jpg"
 import Slide12 from "../screenshots/language_setting.jpg"
 import Slide13 from "../screenshots/settings.jpg"
+import Slide14 from "../screenshots/profile.jpg"
 
 
 const sliderImagges = [
@@ -36,6 +37,7 @@ const sliderImagges = [
   Slide11,
   Slide12,
   Slide13,
+  Slide14,
   
 ];
 
@@ -54,6 +56,7 @@ const names = [
   "Alerts",
   "Language Settings",
   "Settings",
+  "Profile"
 ];
 
 const Screenshot = () => {
@@ -79,7 +82,7 @@ const Screenshot = () => {
         overflow: "hidden",
       }}
     >
-      <Typography variant="h4" style={{ padding: 10 }}>
+      <Typography variant="h4" style={{ marginTop: 70 }}>
         {" "}
         ScreenShot
       </Typography>

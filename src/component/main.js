@@ -11,23 +11,24 @@ import Footer from "./footer";
 import Manage from "./manage";
 import Contact from "./contact";
 import ReviewData from "./review";
-import AppFeature from "./appFeature";
-import Count from "./countdown";
-
 import { Box } from "@mui/material";
+import AppFeature from "./appFeature";
+import UpNavbar from "./upNavbar";
 const Main = () => {
   return (
+    
+   
     <div>
+      
       <Nav />
+      <UpNavbar/>
 
       <Header />
 
       <OurService />
       <Feature />
-      {/* <AppFeature /> */}
-
+     <AppFeature/>
       <Screenshot />
-      <Count />
       <Pricing />
       <TopClients />
       <ReviewData />
@@ -38,6 +39,7 @@ const Main = () => {
         <Footer />
       </Box>
     </div>
+   
   );
 };
 

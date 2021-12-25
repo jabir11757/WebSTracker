@@ -2,6 +2,8 @@ import React from "react";
 import {AppBar,Toolbar,Button,Grid, Box} from "@mui/material";
 import Logo from "../images/logo.svg"
 import { Link } from "react-scroll";
+// import { grey } from "@mui/material/colors";
+
 
 
 
@@ -12,8 +14,9 @@ const Navbar = () => {
     <AppBar
   style={{
     backgroundColor:"white",
-    boxShadow: "initial",
+    boxShadow: "f8f6f6",
     height:80,
+    marginTop:30,
     
   }}
 >

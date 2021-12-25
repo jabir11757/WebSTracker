@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Link, Typography } from "@mui/material";
 import React from "react";
 import { Parallax } from "react-parallax";
 import hand from "../images/hand_with_phone.png";
@@ -39,7 +39,8 @@ export default function Manage() {
                   margin: 20,
                 }}
               >
-                Google Play
+               Google Play
+                
               </Button>
               <Button
                 style={{

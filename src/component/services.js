@@ -112,7 +112,7 @@ const OurService = () => {
                         </Box>
                         <Typography
                           variant="overline"
-                          style={{ fontWeight: "bold" }}
+                          style={{ fontWeight: "bold"  }}
                         >
                           {item.title}
                         </Typography>

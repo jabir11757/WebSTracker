@@ -41,14 +41,14 @@ const Contact = () => {
                             Dhaka Office
                         </Typography>
                         <Typography  variant='h8'>
-                            242/2, Ahmed Nagar, Pikepara, Mirpur-1,<br/> Dhaka-1216, Bangladesh. <br/> Customer Care: +8801313343311 <br/> Sales: +8801313343311 <br/> Corporate: +8801313343311
+                            242/2, Ahmed Nagar, Pikepara, Mirpur-1,<br/> Dhaka-1216, Bangladesh. <br/> Customer Care: +8801313343311 <br/> Sales: +8801812266644 <br/> Corporate: +8801313343300
                         </Typography>
 
                         <Typography style={{marginTop:15,marginBottom:0}} variant='h6'>
                             Chattagram Office
                         </Typography>
                         <Typography  variant='h8'>
-                            242/2, Ahmed Nagar, Pikepara, Mirpur-1,<br/> Dhaka-1216, Bangladesh. <br/> Customer Care: +8801313343311 <br/> Sales: +8801313343311 <br/> Corporate: +8801313343311 
+                            R/A, Shantidhara, Khulshi-2140,<br/> Chattagram, Bangladesh. <br/> Customer Care: +8801313343311 <br/> Sales: +8801518378803 <br/> Corporate: +8801812266644 
                         </Typography>
                 </Box>
 
