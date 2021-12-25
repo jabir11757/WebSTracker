@@ -53,11 +53,11 @@ const Contact = () => {
                 </Box>
 
     <Box style={{height:300,width:250 ,marginTop:30, marginLeft:90}}> 
-           <Typography variant='h5'>Reach Us Quickly</Typography>
+           <Typography style={{marginLeft:20}} variant='h5'>Reach Us Quickly</Typography>
 
            <Box>
     
-        <Box display="flex" style={{ margin: 20 }}>
+        <Box display="flex" style={{ margin: 20 , marginTop:40}}>
             <Box
             display="flex"
             flexDirection="column"
