@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { Box, Typography, Card, Icon, Divider } from "@mui/material";
+import { Box, Typography, Card, Divider, IconButton } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
-import GitHubIcon from "@mui/icons-material/GitHub";
+// import GitHubIcon from "@mui/icons-material/GitHub";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { grey, yellow } from "@mui/material/colors";
+import { yellow } from "@mui/material/colors";
 
 import { TeamData } from "./data";
 import "./team.css";
@@ -19,7 +19,7 @@ export default class MySlider extends Component {
       speed: 500,
       autoplay: true,
       autoplaySpeed: 5000,
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
     };
     return (
@@ -53,8 +53,8 @@ export default class MySlider extends Component {
                   elevation={5}
                   key={index}
                   style={{
-                    height: 350,
-                    width: 250,
+                    height: 300,
+                    width: 200,
                     margin: 10,
                     backgroundColor:  yellow[900],
                   }}
@@ -69,20 +69,21 @@ export default class MySlider extends Component {
                       alt="team"
                       style={{
                         borderRadius: 0,
-                        margin: 10,
+                        margin: 0,
                         marginTop: 0,
-                        width: 250,
-                        height: 220,
+                        width: 200,
+                        height: 200,
                       }}
                     ></img>
                   </Box>
                   <Box>
                     <Typography
-                      variant="h6"
+                      variant="body1"
                       style={{
                         textAlign: "center",
                         fontWeight: "bold",
                         color:'white',
+                        marginTop:7,
                       }}
                     >
                       {item.name}
@@ -98,20 +99,21 @@ export default class MySlider extends Component {
                     display="flex"
                     flexDirection="row"
                     justifyContent="center"
-                    style={{marginTop:15}}
+                    style={{marginTop:8}}
                   >
-                    <Icon className="Card" style={{margin:6, color: 'white'}}>
-                      <FacebookIcon />
-                    </Icon>
-                    <Icon className="Card" style={{margin:6, color: 'white'}}>
+                    <IconButton className="Card" style={{margin:0, color: 'white'}} href={item.flink}>
+                      
+                      <FacebookIcon></FacebookIcon>
+                    </IconButton>
+                    <IconButton className="Card" style={{margin:0, color: 'white'}}>
+                    {/* {item.elink} */}
                       <EmailIcon />
-                    </Icon>
-                    <Icon className="Card" style={{margin:6, color: 'white'}}>
-                      <GitHubIcon />
-                    </Icon>
-                    <Icon className="Card" style={{margin:6, color: 'white'}}>
+                    </IconButton>
+                    
+                    <IconButton className="Card" style={{margin:0, color: 'white'}}>
+                    {/* {item.mlink} */}
                       <PhoneIphoneIcon />
-                    </Icon>
+                    </IconButton>
                   </Box>
                 </Card>
               </div>
@@ -122,3 +124,15 @@ export default class MySlider extends Component {
     );
   }
 }
+
+
+
+
+
+
+
+
+// {/* <IconButton className="Card" style={{margin:0, color: 'white'}}>
+//                     {/* {item.glink} */}
+//                       <GitHubIcon />
+//                     </IconButton> */}

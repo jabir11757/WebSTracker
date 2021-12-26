@@ -1,4 +1,4 @@
-import { Box, Button, Link, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import { Parallax } from "react-parallax";
 import hand from "../images/hand_with_phone.png";
@@ -30,7 +30,7 @@ export default function Manage() {
             </Typography>
 
             <Box display="flex" flexDirection="row">
-              <Button
+              <Button href="https://play.google.com/store/apps/details?id=com.forbitbd.sultantracker"
                 style={{
                   height: 40,
                   width: 150,

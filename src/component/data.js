@@ -3,7 +3,6 @@ import Traffic from "../images/traffic.gif";
 import Engine from "../images/engine.gif";
 import Mileage from "../images/mileage.gif";
 import Street from "../images/street_view.gif";
-import BG from "../images/street_view.gif";
 import Fence from "../images/fence.gif";
 import Voice from "../images/voice.gif";
 import Alert from "../images/alert.gif";
@@ -25,9 +24,17 @@ import StreetView from "../images/street_view.svg";
 
 import SOS from "../images/sos.svg";
 import Developer1 from "../images/developer1.jpg"
-import Developer2 from "../images/developer2.jpg"
-import Developer3 from "../images/developer3.jpg"
-import Developer4 from "../images/developer4.jpg"
+
+
+import Shamim from "../team/shamim.jpg"
+import Shadhin from "../team/shadhin.jpg"
+import Kashem from "../team/kashem.jpg"
+import Jabir from "../team/jabir.jpeg"
+import Saimul from "../team/saimul.jpeg"
+// import Abid from "../team/abid.jpeg"
+import Helena from "../team/helena.jpeg"
+import Shumon from "../team/shumon.jpg"
+import Shifat from "../team/shifat.jpg"
 
 import Support from "../images/247_support.png"
 import UserFriendlyApp from "../images/user_friendly_app.png"
@@ -35,6 +42,9 @@ import ExpenseControl from "../images/expense_control.png"
 import DualLanguage from "../images/dual_language.png"
 import Notification from "../images/notification.png"
 import CustomService from "../images/custom_service.png"
+
+
+
 
 export const FeatureData = [
   {
@@ -359,56 +369,7 @@ export const PricingData = [
   },
 ];
 
-// export const info = [
-//   {
-//     info: "Live Tracking",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "Audio System ",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "Engine Lock & Unlock ",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "Engine On and Off Alert",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "Basic Reports",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "Travel History",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "Extended Daily Report",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "Speed Violation Alert",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "Device Removal Alert",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "Fuel Monitoring System ",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "12 MOnths Warranty",
-//     icon: "CheckCircleIcon",
-//   },
-//   {
-//     info: "24 x 7 Helpline Facility",
-//     icon: "CheckCircleIcon",
-//   },
-// ];
+
 export const ClientData = [
   {
     image: Mahindra,
@@ -457,36 +418,92 @@ export const TeamData = [
     image: Developer1,
     name: "SOHEL AHMED",
     post: "MANAGING DIRECTOR",
+    flink:"https://www.facebook.com/profile.php?id=100011550577532",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
+  },
+  {
+    image: Saimul,
+    name: "SAIMUL HOQUE",
+    post: "ANDROID DEVELOPER",
+    flink:"https://www.facebook.com/nipom.8217",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
   },
   {
     image: Developer1,
-    name: "SAIMUL HOQUE",
-    post: "ANDROID DEVELOPER",
-  },
-  {
-    image: Developer2,
     name: "ABID A. SOBHAN",
     post: "BACKEND DEVELOPER",
+    flink:"https://www.facebook.com/69ab69",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
+  },
+  {
+    image: Jabir,
+    name: "SHEIKH JABIR",
+    post: "WEB DEVELOPER",
+    flink:"https://www.facebook.com/ItsJabir",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
   },
   
   {
-    image: Developer1,
+    image: Shumon,
     name: "SAZZAD HOSSAIN",
-    post: "IOT ENGINEER",
+    post: "SENIOR IOT ENGINEER",
+    flink:"https://www.facebook.com/shazzad32",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
   },
   {
-    image: Developer3,
+    image: Kashem,
     name: "ABU KASHEM",
     post: "CHIEF TECHNICIAN",
+    flink:"https://www.facebook.com/mdabukasham.abukasham",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
   },
   {
-    image: Developer4,
+    image: Shamim,
     name: "SAMIM AHMED",
     post: "IOT ENGINEER",
+    flink:"https://www.facebook.com/profile.php?id=100007114246532",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
+  },
+  
+  {
+    image: Shadhin,
+    name: "Shadhin Shahriar",
+    post: "Digital Marketer",
+    flink:"https://www.facebook.com/shadhin.shariar.3",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
   },
   {
-    image: Developer1,
-    name: "SHEIKH JABIR",
-    post: "WEB DEVELOPER",
+    image: Shifat,
+    name: "Shifat Ara Sultana",
+    post: "CRM",
+    flink:"https://www.facebook.com/shadhin.shariar.3",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
+  },
+  {
+    image: Helena,
+    name: "Helena Khatun",
+    post: "CRM",
+    flink:"https://www.facebook.com/shadhin.shariar.3",
+    // elink:"",
+    // glink:"",
+    // mlink:"",
   },
 ];
