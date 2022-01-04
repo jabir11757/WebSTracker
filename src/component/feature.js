@@ -1,4 +1,4 @@
-import { Box, Grid, Typography, Card } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import { grey } from "@mui/material/colors";
 import React from "react";
 import { FeatureData } from "./data";

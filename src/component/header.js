@@ -1,7 +1,9 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box,Card, Button, Typography,IconButton } from "@mui/material";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import React from "react";
 import "./header.css";
 import CityDriver from "../images/City_driver.svg"
+import { Instagram } from "@mui/icons-material";
 const Header = () => {
   return (
     <Box
@@ -25,10 +27,27 @@ const Header = () => {
         <Typography variant="h5" style={{ color: "black", marginTop: 20 }}>
           For Individual And Corporate
         </Typography>
-              <Box display="flex" flexDirection="row" style={{marginLeft:-10}}>
+
+              <Card display="flex" flexDirection="row" style={{marginLeft:-10}}>
                 <Button style={{height:40,width:150, backgroundColor:"black",borderRadius: 20, margin:10, marginTop:30,color:"white"}}>About Us</Button>
                 <Button style={{height:40,width:250, backgroundColor:"black",borderRadius: 20, margin:10, marginTop:30,color:"white"}}>Apply For Dealership</Button>
-              </Box>
+             </Card>
+
+      </Box>
+
+      <Box display="flex" flexDirection="row" style={{marginTop:-190, marginLeft:60}}>
+          <Box >
+              <IconButton className="Card" style={{margin:0, color: 'black'}} href="https://www.facebook.com/sultanvts/">
+                <FacebookIcon />
+              </IconButton>
+                    
+          </Box>
+
+          <Box >
+              <IconButton className="Card" style={{margin:0, color: 'black'}}>
+                <Instagram/>
+              </IconButton>
+          </Box>
       </Box>
       
 

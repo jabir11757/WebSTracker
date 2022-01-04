@@ -3,7 +3,7 @@ import { Box, Grid, Typography, Card, Divider } from "@mui/material";
 import { AppFeatureData } from "./data";
 const AppFeature = () => {
   return (
-    <Box>
+    <Box style={{marginTop:50}}>
       <Box
         id="features"
         display="flex"
@@ -16,8 +16,8 @@ const AppFeature = () => {
         />
         <Typography variant="h6" style={{ marginTop: 5 }}>
           {" "}
-          There is no one who loves pain itself, who seeks after it and wants to
-          have it,{" "}
+          Some unique features, which can flow users comfortness.
+          {" "}
         </Typography>
       </Box>
 
@@ -36,7 +36,7 @@ const AppFeature = () => {
           {AppFeatureData.map((item,index)=>{
             return(
               <Grid item xs={4}>
-            <Card style={{ height: 150, width: 300 }}>
+            <Card elevation={5} style={{ height: 150, width: 300}}>
               <Box display="flex" flexDirection="row">
                 <Box>
                   <img src={item.image} alt="back" style={{ height: 50, width: 50 ,padding:10}} />{" "}

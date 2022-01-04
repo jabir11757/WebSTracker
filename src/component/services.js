@@ -2,19 +2,12 @@ import React, { Fragment } from "react";
 import {
   Typography,
   Box,
-  Card,
   Avatar,
   Grid,
-  Paper,
   Divider,
 } from "@mui/material";
-// import { useTheme } from "@mui/material/colors";
 import { Link, animateScroll as scroll } from "react-scroll";
-// import { Parallax, Background } from "react-parallax";
 import { grey } from "@mui/material/colors";
-import Graph from "../images/graph.png";
-// import { makeStyles } from "@mui/styles";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { OurServiceData } from "./data";
@@ -35,8 +28,8 @@ const OurService = () => {
         />
         <Typography variant="h6">
           {" "}
-          There is no one who loves pain itself, who seeks after it and wants to
-          have it,{" "}
+         Our most important features
+         {" "}
         </Typography>
       </Box>
 
@@ -105,7 +98,6 @@ const OurService = () => {
                             style={{
                               width: 80,
                               height: 80,
-                              backgroundImage: `url(${Graph})`,
                               overflow: "hidden",
                             }}
                           ></Avatar>

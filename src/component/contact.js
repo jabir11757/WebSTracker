@@ -25,7 +25,7 @@ const Contact = () => {
   };
   return (
 
-             <Box display="flex" flexDirection="row"  
+             <Box id="contact" display="flex" flexDirection="row"  
                style={{
                    height:300, 
                    width:"100%", 
@@ -123,7 +123,6 @@ const Contact = () => {
                 style={{ marginTop: 10, width: 80 }}
                 variant="contained"
                 color="primary"
-                // disabled={disable}
             >
                 Send
             </Button>

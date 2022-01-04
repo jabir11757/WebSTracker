@@ -78,11 +78,12 @@ const Screenshot = () => {
         alignItems: "center",
         flexDirection: "column",
         width: "100%",
+        marginTop: 50,
 
         overflow: "hidden",
       }}
     >
-      <Typography variant="h4" style={{ marginTop: 70 }}>
+      <Typography variant="h4" style={{ marginTop: 10 }}>
         {" "}
         ScreenShot
       </Typography>

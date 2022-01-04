@@ -14,6 +14,7 @@ import ReviewData from "./review";
 import { Box } from "@mui/material";
 import AppFeature from "./appFeature";
 import UpNavbar from "./upNavbar";
+import DeviceAlerts from "./deviceAlerts";
 const Main = () => {
   return (
     
@@ -24,9 +25,11 @@ const Main = () => {
       <UpNavbar/>
 
       <Header />
+     
 
       <OurService />
       <Feature />
+      <DeviceAlerts/>
      <AppFeature/>
       <Screenshot />
       <Pricing />

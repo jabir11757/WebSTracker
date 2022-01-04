@@ -16,7 +16,7 @@ const Pricing = () => {
         flexDirection="column"
         alignItems="center"
       >
-        <Typography variant="h4" style={{ marginTop: 30 }}>
+        <Typography variant="h4" style={{ marginTop: 50 }}>
           {" "}
           Pricing Plans{" "}
         </Typography>

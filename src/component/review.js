@@ -4,7 +4,6 @@ import {
   Box,
   Card,
   Typography,
-  CardHeader,
   CardContent,
   Avatar,
   Divider,
@@ -56,7 +55,7 @@ export default class Fag extends Component {
                   style={{
                     width: "100%",
                     height: 400,
-                    marginTop: 20,
+                    marginTop: 30,
                   }}
                 >
                   <Box display="flex" justifyContent="center">

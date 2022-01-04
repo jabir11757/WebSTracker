@@ -110,8 +110,8 @@ export default class MySlider extends Component {
                       <EmailIcon />
                     </IconButton>
                     
-                    <IconButton className="Card" style={{margin:0, color: 'white'}}>
-                    {/* {item.mlink} */}
+                    <IconButton className="Card" style={{margin:0, color: 'white'}} >
+                    
                       <PhoneIphoneIcon />
                     </IconButton>
                   </Box>

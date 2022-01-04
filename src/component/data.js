@@ -31,7 +31,6 @@ import Shadhin from "../team/shadhin.jpg"
 import Kashem from "../team/kashem.jpg"
 import Jabir from "../team/jabir.jpeg"
 import Saimul from "../team/saimul.jpeg"
-// import Abid from "../team/abid.jpeg"
 import Helena from "../team/helena.jpeg"
 import Shumon from "../team/shumon.jpg"
 import Shifat from "../team/shifat.jpg"
@@ -43,69 +42,166 @@ import DualLanguage from "../images/dual_language.png"
 import Notification from "../images/notification.png"
 import CustomService from "../images/custom_service.png"
 
+import Power from "../icons/power-on.png"
+import PowerCut from "../icons/turn-off.png"
+import Bettery from "../icons/low-battery.png"
+import Airplane from "../icons/airplane.png"
+import Door from "../icons/car-door.png"
+import Displacement from "../icons/displacement.png"
+import Vibration from "../icons/vibration.png"
+import I_O_Fence from "../icons/fence.png"
+import E_GPS from "../icons/gps.png"
+import ACC_On_Off from "../icons/car-rental.png"
+import Disassemble from "../icons/power-plug.png"
+import OverSpeed from "../icons/speed.png"
+import SOS_Alert from "../icons/alert.png" 
 
 
+export const DeviceAlertsData = [
+  {
+    title: "SOS Alert",
+    image: SOS_Alert,
+    description: "Abid Ahmed Sobhan",
+  },
+  {
+    title: "Power Cut",
+    image: PowerCut,
+    description: "Jabir",
+  },
+  {
+    title: "Vibration Alert",
+    image: Vibration,
+    description: "Saimul",
+  },
+  {
+    title: "Enter Fence Alert",
+    image: I_O_Fence,
+    description: "Monju",
+  },
+  {
+    title: "Exit Fence Alert",
+    image: I_O_Fence,
+  },
+  {
+    title: "OverSpeed Alert",
+    image: OverSpeed,
+  },
+  {
+    title: "Displacement Alert",
+    image: Displacement,
+  },
+  {
+    title: "Enter GPS DeadZone Alert",
+    image: E_GPS,
+  },
+  {
+    title: "Exit GPS DeadZone Alert",
+    image: E_GPS,
+  },
+  {
+    title: "Power On Alert",
+    image: Power,
+  },
+  {
+    title: "Power OFF Alert",
+    image: Power,
+  },
+  {
+    title: "Power First Fix",
+    image: Power,
+  },
+  {
+    title: "Low Battery Alert",
+    image: Bettery,
+  },
+  {
+    title: "Low Battery Protection On  Alert",
+    image: Bettery,
+  },
+  {
+    title: "Sim Change Alert",
+    image: Displacement,
+  },
+  {
+    title: "Airplane Mode Alert",
+    image: Airplane,
+  },
+  {
+    title: "Disassemble Alert",
+    image: Disassemble,
+  },
+  {
+    title: "Door Alert",
+    image: Door,
+  },
+  {
+    title: "Acc on Alert",
+    image: ACC_On_Off,
+  },
+  {
+    title: "Acc off Alert",
+    image: ACC_On_Off,
+  },
+];
 
 export const FeatureData = [
   {
     title: "Live Tracking",
     image: VehicleTracking,
-    description:
-      "Sultan Tracker vehicle tracking system enable you to keep your virtual eyes on your vehicles all the time and prevent unauthorized and fraudulent use of your assets. Live tracking system will provide you real-time view of your vehicle on map.",
-  },
+    description:"Honoured customer can view any type of vehicle movement online in real time.Which is a great improvement over the auto refreash map.Customer can also see the actual travel path instead of a straight line with Sultan VTS."  },
   {
     title: "Live Traffic",
     image: TrafficUpdate,
     description:
-      "In crowded areas choosing best route can save tome & money. Sultan VTS shows traffic update in its associated map by color variation. Red is mostly crowded whereas blue means least crowded.",
+      "In traffic areas choosing best route can save waste of time. Sultan VTS shows traffic update in its associated map by color variation. Red shows mostly crowded whereas blue shows least crowded.",
   },
   {
     title: "Engine ON/OFF",
     image: EngineOnOff,
     description:
-      "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
+      "You can stop/restart your car anytime, anywhere from your Sultan GPS tracker mobile app. This will protect your car from theft and ensure the safety of your vehicle. Also, you can use our Voice monitoring system to hear the conversation inside your vehicle just by calling at our tracker number.",
   },
   {
     title: "Mileage Report",
     image: MileageReport,
     description:
-      "Milage Report is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing",
+      "You can see information about the Start and end of travel on your Sultan GPS tracker device. This includes the time of each stop and its start/end time. The information is presented in the history view via animated, after clicking the 'Play / Stop' button. you can also get a maximum 6 month's moving history from our app and web platform.",
   },
   {
     title: "Street view",
     image: StreetView,
     description:
-      "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
+      "The Best Way to Track a Car is with Sultan VTS. We've portable devices that allow a car owner to monitor and locate car when needed. We also have the potential to offer instant location, speed, and direction data.",
   },
   {
     title: "Voice Monitoring",
     image: VoiceMonitor,
     description:
-      "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
+      "Sultan VTS are popular among vehicle companies and individual car owners as help with theft recovery and drivers unethical behaviour by voice monitoring feature.",
   },
   {
     title: "Geo Fence",
     image: GeoFence,
     description:
-      "Geo-Fence is a virtual perimeter for a real world geographic and .Its a virtual boundary system, which a vehicle can be ket safe by creating a virtual boundary around a paticular area on place If you leave the car in a specific area or place and turn on the geofence through the mobile app, the car will leave that place and the alert will be sent to the mobile through which the car can be rescued by taking immediate action or by turning off the car engine via sms.",
+      "Using the Sultan VTS, you can easily get instant alerts about any object or vehicle tracking. Buy and sell bitcoins at Satoshily. Get notifications when the object or vehicle enters or exits geo-zone, know if it is speeding and stopovers. Get SOS alarms if it has been stolen as well as turn on/off the engine easily. Get notifications to your iPhone, Android, or Windows devices, via e-mail, mobile App, or SMS.",
   },
   {
     title: "SOS Alert",
     image: SOS,
     description:
-      "Driver as well as passengers boarding on it may fall in crisis like road accident, robbery, kidnaping, snatching etc. and need to inform vehicle owner. In this hazardous situation you can press SOS button of vehicle tracker that will forward an outgoing call to owner and receiving it he/she can hear conversation inside the car and will able to take necessary steps.",
+      "This has an impact on your profit if you cannot recover the vehicle after it is stolen. GPS tracking drastically reduces the possibility of stealing vehicles and increases the probability of recovery. Several alerts are provided from us to save your vehicle.",
   },
   {
     title: "Vehicle Sharing",
     image: ShareVehicle,
     description:
-      "A unique feature of Sultan Tracker vehicle tracking system is vehicle sharing. Vehicle owner can share their car with anyone registered in Sultan Tracker App. Shared user can live track the vehicle and see reports and ensure the safety of his relative’s and/or his valuables.",
+      "Sultan VTS provide the important and unique feature like vehicle sharing. Vehicle owner can share their car with anyone registered in Sultan Tracker App. Shared user can see the vehicle location and reports to ensure the safety of his relative’s or his/her well wishers.",
   },
   {
     title: "Speed Violation",
     image: SpeedViolation,
     description:
-      "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
+      "Over speed driving may cause fatal accident and results in life & money loss. Sultan GPS tracking system will allow you to set maximum velocity of your vehicle and when your car exceeds this speed limit you will receive instant notification. You can warn your driver not to exceed speed limit and thus you can ensure safety of passengers and assets.",
   },
 ];
 
@@ -162,37 +258,37 @@ export const AppFeatureData = [
     title: "24/7 Support",
     image: Support,
     description:
-    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+    "We provide our services to you 24 hours for a day",
   },
   {
     title: "User friendly App",
     image: UserFriendlyApp,
     description:
-    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+    "Sultan Tracker App is very friendly and easy to use for all users",
   },
   {
     title: "Notifications",
     image: Notification,
     description:
-      "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+      "We sent you notifications at any kind of danger; like power cut,engine off/on,over speed, SOS alert etc.",
   },
   {
     title: "Custom Service",
     image: CustomService,
     description:
-    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+    "Out of our main services, we full-filled our honourable clients requirements ",
   },
   {
     title: "Dual Language",
     image: DualLanguage,
     description:
-    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+    "Sultan VTS start a new feature by adding bengli laguage for customers comfort .",
   },
   {
     title: "Expense Control",
     image: ExpenseControl,
     description:
-    "Torem Ipsum used since the 1500s is reproduced below for those interested.",
+    "We've so many feature, that control your costing",
   },
 ];
 
@@ -420,8 +516,7 @@ export const TeamData = [
     post: "MANAGING DIRECTOR",
     flink:"https://www.facebook.com/profile.php?id=100011550577532",
     // elink:"",
-    // glink:"",
-    // mlink:"",
+    mlink:"01820003400",
   },
   {
     image: Saimul,
@@ -429,8 +524,7 @@ export const TeamData = [
     post: "ANDROID DEVELOPER",
     flink:"https://www.facebook.com/nipom.8217",
     // elink:"",
-    // glink:"",
-    // mlink:"",
+    mlink:"01820003400",
   },
   {
     image: Developer1,
@@ -438,8 +532,7 @@ export const TeamData = [
     post: "BACKEND DEVELOPER",
     flink:"https://www.facebook.com/69ab69",
     // elink:"",
-    // glink:"",
-    // mlink:"",
+    mlink:"01820003400",
   },
   {
     image: Jabir,
@@ -447,18 +540,7 @@ export const TeamData = [
     post: "WEB DEVELOPER",
     flink:"https://www.facebook.com/ItsJabir",
     // elink:"",
-    // glink:"",
-    // mlink:"",
-  },
-  
-  {
-    image: Shumon,
-    name: "SAZZAD HOSSAIN",
-    post: "SENIOR IOT ENGINEER",
-    flink:"https://www.facebook.com/shazzad32",
-    // elink:"",
-    // glink:"",
-    // mlink:"",
+    mlink:"01820003400",
   },
   {
     image: Kashem,
@@ -466,8 +548,15 @@ export const TeamData = [
     post: "CHIEF TECHNICIAN",
     flink:"https://www.facebook.com/mdabukasham.abukasham",
     // elink:"",
-    // glink:"",
-    // mlink:"",
+    mlink:"01820003400",
+  },
+  {
+    image: Shumon,
+    name: "SAZZAD HOSSAIN",
+    post: "SENIOR IOT ENGINEER",
+    flink:"https://www.facebook.com/shazzad32",
+    // elink:"",
+    mlink:"01820003400",
   },
   {
     image: Shamim,
@@ -475,8 +564,15 @@ export const TeamData = [
     post: "IOT ENGINEER",
     flink:"https://www.facebook.com/profile.php?id=100007114246532",
     // elink:"",
-    // glink:"",
-    // mlink:"",
+    mlink:"01820003400",
+  },
+  {
+    image: Helena,
+    name: "Helena Khatun",
+    post: "CRM",
+    flink:"https://www.facebook.com/shadhin.shariar.3",
+    // elink:"",
+    mlink:"01820003400",
   },
   
   {
@@ -485,8 +581,7 @@ export const TeamData = [
     post: "Digital Marketer",
     flink:"https://www.facebook.com/shadhin.shariar.3",
     // elink:"",
-    // glink:"",
-    // mlink:"",
+    mlink:"01820003400",
   },
   {
     image: Shifat,
@@ -494,16 +589,7 @@ export const TeamData = [
     post: "CRM",
     flink:"https://www.facebook.com/shadhin.shariar.3",
     // elink:"",
-    // glink:"",
-    // mlink:"",
+    mlink:"01820003400",
   },
-  {
-    image: Helena,
-    name: "Helena Khatun",
-    post: "CRM",
-    flink:"https://www.facebook.com/shadhin.shariar.3",
-    // elink:"",
-    // glink:"",
-    // mlink:"",
-  },
+  
 ];
